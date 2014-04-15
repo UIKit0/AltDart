@@ -1,0 +1,23 @@
+typed class A {
+  var int a[32][33], b;
+  var int c;
+  var float d;
+  
+  constructor(int a, float b) {
+    console.log("yay");
+    this.a = a;
+    var float g = this.e;
+  }
+  
+  get e() : float {
+    return this.d;
+  }
+  
+  method() : float {
+    return 0.0;
+  }
+  
+  method_b() : int {
+    return 0.0;
+  }
+}
